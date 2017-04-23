@@ -70,7 +70,7 @@ body {
   -webkit-tap-highlight-color: #222222; }
 
 #mainNav {
-  background-color: white;
+  background-color: #2d2d2d;
   border-color: rgba(34, 34, 34, 0.05);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -80,9 +80,9 @@ body {
   letter-spacing: 1px; }
 
   #mainNav .navbar-toggler {
-    font-size: 12px;
-    color: #222222;
-    padding: 8px 10px; }
+    font-size: 20px;
+    color: white;
+    padding: 18px 10px; }
   #mainNav .navbar-nav > li > a {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     text-transform: uppercase;
@@ -95,7 +95,7 @@ body {
         background-color: transparent; }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
-    color: #222222; }
+    color: white; }
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
       color: #fdcc52; }
