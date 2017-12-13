@@ -60,7 +60,7 @@
         <p class="tagline">
           Your 'catch-all' Training Need
         </p>
-        <a class="btn btn-full" href="#about">Get Started Now</a>
+        <a class="btn landing-button" href="#about">Get Started Now</a>
       </div>
     </div>
 
@@ -79,11 +79,11 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#features">Services</a></li>
-          <li><a href="#portfolio">Clients</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li><a href="#team">Clients</a></li>
+          <!--<li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -99,7 +99,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li>-->
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
@@ -156,26 +156,25 @@
   <!-- /About -->
   <!-- Parallax -->
 
-  <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
-    <h2>
-        What is Performa?
-      </h2>
-
-    <p>
-      <ul>
-        <li>- Holistic (complete)</li>
-        <li>- Simple (to understand)</li>
-        <li>- Practical (application)</li>
-        <li>- Tried-and-tested</li>
-        <li>- Specialization (only performance management)</li>
-        <li>- Results-oriented</li>
-        <li>- Behavior change focus</li>
-        <li>- market competitive rates</li>
-        <li>- in-house training</li>
-        <li>- customized</li>
-        <li>- flexible scheduling</li>
-      </ul>
-    </p>
+  <div class="about-parallax block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+    <h2>What is Performa?</h2>
+    <div class="row text-center">
+      <div class="feature-col col-lg-5 offset-lg-1 col-xs-12">
+        <li>Holistic (complete)</li>
+        <li>Simple (to understand)</li>
+        <li>Practical (application)</li>
+        <li>Tried-and-tested</li>
+        <li>Specialization (only performance management)</li>
+        <li>Results-oriented</li>
+      </div>
+      <div class="feature-col col-lg-5 col-xs-12">
+        <li>Behavior change focus</li>
+        <li>market competitive rates</li>
+        <li>in-house training</li>
+        <li>customized</li>
+        <li>flexible scheduling</li>
+      </div>
+    </div>
   </div>
   <!-- /Parallax -->
   <!-- Features -->
@@ -186,12 +185,12 @@
           Key Benefits
         </h2>
         
-      <div class="row">
+      <div class="row text-center">
         <div class="feature-col col-lg-4 col-xs-12">
           <div class="card card-block text-center">
             <div>
               <div class="feature-icon">
-                <span class="fa fa-rocket"></span>
+                <span class="fa fa-thumbs-down"></span>
               </div>
             </div>
 
@@ -211,7 +210,7 @@
           <div class="card card-block text-center">
             <div>
               <div class="feature-icon">
-                <span class="fa fa-envelope"></span>
+                <span class="fa fa-user-times"></span>
               </div>
             </div>
 
@@ -231,7 +230,7 @@
           <div class="card card-block text-center">
             <div>
               <div class="feature-icon">
-                <span class="fa fa-bell"></span>
+                <span class="fa fa-window-close"></span>
               </div>
             </div>
 
@@ -249,11 +248,11 @@
       </div>
 
       <div class="row">
-        <div class="feature-col col-lg-4 col-xs-12">
+        <div class="feature-col col-lg-4 offset-lg-2 col-xs-12">
           <div class="card card-block text-center">
             <div>
               <div class="feature-icon">
-                <span class="fa fa-database"></span>
+                <span class="fa fa-usd"></span>
               </div>
             </div>
 
@@ -273,7 +272,7 @@
           <div class="card card-block text-center">
             <div>
               <div class="feature-icon">
-                <span class="fa fa-cutlery"></span>
+                <span class="fa fa-long-arrow-up"></span>
               </div>
             </div>
 
@@ -481,51 +480,73 @@
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="bottom">
-      <div class="container">
-        <div class="row">
+  <footer class="footer-distributed">
 
-          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-            <p class="copyright-text">
-            </p>
-            <div class="credits">
-              
-            </div>
-          </div>
+      <div class="footer-left">
 
-          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html">Home</a>
-              </li>
+        <a class="performa-brand-footer" href="index.html" title="Home"><img alt="Performa Logo" src="img/performa-logo-big.png"></a>
 
-              <li class="list-inline-item">
-                <a href="#about">About Us</a>
-              </li>
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Services</a>
+          ·
+          <a href="#">Clients</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
 
+<<<<<<< HEAD
               <li class="list-inline-item">
                 <a href="#features">Services</a>
               </li>
+=======
+        <p class="footer-company-name">Chino Padua © 2017</p>
+      </div>
+>>>>>>> master
 
-              <li class="list-inline-item">
-                <a href="#portfolio">Portfolio</a>
-              </li>
+      <div class="footer-center">
 
-              <li class="list-inline-item">
-                <a href="#team">Team</a>
-              </li>
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Makati Corporate Office, Cityland Tower, 
+          unit 2807, 
+          </span> Makati City, Philippines</p>
+        </div>
 
-              <li class="list-inline-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+63 917 817 4171</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@performaconsult.com">support@performaconsult.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
 
         </div>
+
       </div>
-    </div>
-  </footer>
+
+    </footer>
   <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
 
 
